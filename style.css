@@ -1,0 +1,147 @@
+#index{
+    background-image: linear-gradient(to right, #f194fc, #90fcdb);
+  animation: gradientAnimation  5s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  margin-top: 20px;
+  color: black;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+#restopaginas{
+    
+    background-image: url('./Imagenes/fondo.jpg');
+    background-size: contain;
+}
+
+#cartel {
+    font-size: 25px; 
+    border: 10px solid black;
+    border-radius: 5%;
+    background-color: #AED6F1  ;
+}
+#fondofresas{
+    border:5px solid black;
+    background-color: #ff98e9;
+}
+
+#fondocerezas{
+    border: 5px solid black;
+    background-color: #740b03;
+    color: white;
+    font-size: 20px;
+}
+
+#fondosandia {
+    border: 5px solid black;
+    background-size: cover;
+    background-color: #6edb64 ;
+    color: black;
+    font-size: 20px;;
+    }
+
+
+#catalogoh2{
+    background-color: #76448A ;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5%;
+    border:5px solid black;
+    font-size:45px;
+    padding: 10px;
+}
+
+#fondonaranjas {
+    border:5px solid black;
+}
+#footer1 {
+    background-color: #FEF98E  ;
+    border: 5px solid black;
+    border-radius: 5%;
+    padding: 10px; 
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+
+#footer2{
+    background-color:#5DADE2;
+    border:3px solid black;
+    color:black;
+    border-radius: 5%;
+}
+
+#formulario {
+    border: 5px solid black;
+    background-color: #92fe8e;
+    border-radius: 5%;
+    
+}
+
+#formulario h1 {
+text-align: center;
+margin:10px;
+}
+
+.form-floating {
+    margin: 10px;
+}
+#fondocatalogo img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+#preguntas{
+    background-color: rgb(208, 160, 253);
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+    padding: 20px;
+}
+
+#logotelefono {
+    background-color: #5DADE2;
+}
+
+#contenedoriconos {
+    margin-bottom: 10px;
+    background-color: rgb(147, 218, 140);
+    border:5px solid black;
+    border-radius: 3%;
+}
+
+
+.mrg{
+    margin-right: 20px !important;
+}
+#contenedoriconos img{
+    border-radius: 50%;
+}
+
+#primerparrafo {
+    background-color: #a4f89c;
+    border:5px solid black;
+    border-radius: 3%;
+    text-align: center;
+}
+
+#segundoparrafo {
+    background-color: #fdc1ff;
+    border:5px solid black;
+    border-radius: 3%;
+    text-align: center;
+}
+
